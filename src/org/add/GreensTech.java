@@ -19,6 +19,9 @@ System.out.println("VELACHERRY");
 private void greensAnnaNagar() {
 System.out.println("ANNANAGAR");
 } 
+private void greensPoonamallee() {
+System.out.println("poonamallee");
+}
 public static void main(String[] args) {
 	GreensTech c=new GreensTech();
 	c.greensOmr();
@@ -26,5 +29,6 @@ public static void main(String[] args) {
 	c.greensTambaram();
 	c.greensVelacherry();
 	c.greensAnnaNagar();
+	c.greensPoonamallee();
 }
 }
